@@ -1205,8 +1205,10 @@ call everforest#highlight('TelescopePromptCounter', s:palette.fg, s:palette.none
 " }}}
 
 call everforest#highlight('NoiceCmdlinePopupBorder', s:palette.bg_dim, s:palette.bg_dim)
-call everforest#highlight('NoiceCmdlinePopup', s:palette.bg_dim, s:palette.bg_dim)
+call everforest#highlight('NoiceCmdlinePopup', s:palette.fg, s:palette.bg_dim)
 call everforest#highlight('NoiceCmdlinePopupTitleCmdline', s:palette.bg2, s:palette.red)
+call everforest#highlight('NoiceCmdlinePopupTitleInput', s:palette.bg2, s:palette.yellow)
+call everforest#highlight('NoiceCmdlinePopupTitleFilter', s:palette.bg2, s:palette.blue)
 
 " lewis6991/gitsigns.nvim {{{
 highlight! link GitSignsAdd GreenSign
