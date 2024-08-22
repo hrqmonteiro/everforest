@@ -1199,6 +1199,7 @@ call everforest#highlight('TelescopePromptNormal', s:palette.fg, s:palette.bg2, 
 call everforest#highlight('TelescopePromptBorder', s:palette.bg2, s:palette.bg2, 'bold')
 call everforest#highlight('TelescopeResultsTitle', s:palette.bg_dim, s:palette.bg_dim, 'bold')
 call everforest#highlight('TelescopeBorder', s:palette.bg_dim, s:palette.bg_dim, 'bold')
+call everforest#highlight('TelescopeNormal', s:palette.fg, s:palette.bg_dim, 'bold')
 highlight! link TelescopeSelection DiffAdd
 " }}}
 " lewis6991/gitsigns.nvim {{{
