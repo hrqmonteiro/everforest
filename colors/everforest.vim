@@ -1200,7 +1200,6 @@ call everforest#highlight('TelescopePromptBorder', s:palette.bg, s:palette.bg, '
 call everforest#highlight('TelescopeBorder', s:palette.bg_dim, s:palette.bg_dim, 'bold')
 call everforest#highlight('TelescopeBorder', s:palette.bg_dim, s:palette.bg_dim, 'bold')
 call everforest#highlight('TelescopeBorder', s:palette.bg_dim, s:palette.bg_dim, 'bold')
-highlight! link TelescopePromptPrefix Orange
 highlight! link TelescopeSelection DiffAdd
 " }}}
 " lewis6991/gitsigns.nvim {{{
