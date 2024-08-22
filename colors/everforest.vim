@@ -1204,7 +1204,7 @@ call everforest#highlight('TelescopeNormal', s:palette.fg, s:palette.bg_dim)
 call everforest#highlight('TelescopeSelection', s:palette.fg, s:palette.bg1)
 call everforest#highlight('TelescopePromptCounter', s:palette.fg, s:palette.none)
 " }}}
-
+" folke/noice.nvim {{{
 call everforest#highlight('NoiceCmdlinePopupBorder', s:palette.bg2, s:palette.bg2)
 call everforest#highlight('NoiceCmdlinePopupBorderSearch', s:palette.bg2, s:palette.bg2)
 call everforest#highlight('NoiceCmdlinePopup', s:palette.fg, s:palette.bg2)
@@ -1212,6 +1212,10 @@ call everforest#highlight('NoiceCmdlinePopupTitleCmdline', s:palette.bg2, s:pale
 " call everforest#highlight('NoiceCmdlinePopupTitleInput', s:palette.bg2, s:palette.yellow)
 call everforest#highlight('NoiceCmdlinePopupTitleFilter', s:palette.bg2, s:palette.blue)
 call everforest#highlight('NoiceCmdlinePopupTitleSearch', s:palette.bg2, s:palette.yellow)
+" }}}
+
+call everforest#highlight('HydraBorder', s:palette.bg_dim, s:palette.bg_dim)
+call everforest#highlight('HydraHint', s:palette.fg, s:palette.bg_dim)
 
 " lewis6991/gitsigns.nvim {{{
 highlight! link GitSignsAdd GreenSign
