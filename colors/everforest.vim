@@ -189,7 +189,7 @@ endif
 if s:configuration.dim_inactive_windows
   call everforest#highlight('VertSplit', s:palette.bg4, s:palette.bg_dim)
 else
-  call everforest#highlight('VertSplit', s:palette.bg4, s:palette.none)
+  call everforest#highlight('VertSplit', s:palette.bg0, s:palette.none)
 endif
 highlight! link WinSeparator VertSplit
 call everforest#highlight('Visual', s:palette.none, s:palette.bg_visual)
