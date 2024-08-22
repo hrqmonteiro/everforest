@@ -1208,7 +1208,7 @@ call everforest#highlight('TelescopePromptCounter', s:palette.fg, s:palette.none
 call everforest#highlight('NoiceCmdlinePopupBorder', s:palette.bg2, s:palette.bg2)
 call everforest#highlight('NoiceCmdlinePopupBorderSearch', s:palette.bg2, s:palette.bg2)
 call everforest#highlight('NoiceCmdlinePopup', s:palette.fg, s:palette.bg2)
-call everforest#highlight('NoiceCmdlinePopupTitleCmdline', s:palette.bg2, s:palette.red)
+call everforest#highlight('NoiceCmdlinePopupTitleCmdline', s:palette.bg2, s:palette.blue)
 " call everforest#highlight('NoiceCmdlinePopupTitleInput', s:palette.bg2, s:palette.yellow)
 call everforest#highlight('NoiceCmdlinePopupTitleFilter', s:palette.bg2, s:palette.blue)
 call everforest#highlight('NoiceCmdlinePopupTitleSearch', s:palette.bg2, s:palette.yellow)
