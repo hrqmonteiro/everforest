@@ -1208,8 +1208,9 @@ call everforest#highlight('NoiceCmdlinePopupBorder', s:palette.bg_dim, s:palette
 call everforest#highlight('NoiceCmdlinePopupBorderSearch', s:palette.bg_dim, s:palette.bg_dim)
 call everforest#highlight('NoiceCmdlinePopup', s:palette.fg, s:palette.bg_dim)
 call everforest#highlight('NoiceCmdlinePopupTitleCmdline', s:palette.bg2, s:palette.red)
-call everforest#highlight('NoiceCmdlinePopupTitleInput', s:palette.bg2, s:palette.yellow)
+" call everforest#highlight('NoiceCmdlinePopupTitleInput', s:palette.bg2, s:palette.yellow)
 call everforest#highlight('NoiceCmdlinePopupTitleFilter', s:palette.bg2, s:palette.blue)
+call everforest#highlight('NoiceCmdlinePopupTitleSearch', s:palette.bg2, s:palette.yellow)
 
 " lewis6991/gitsigns.nvim {{{
 highlight! link GitSignsAdd GreenSign
