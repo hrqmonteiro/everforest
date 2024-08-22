@@ -1193,7 +1193,8 @@ highlight! link TroubleCode Grey
 " }}}
 " nvim-telescope/telescope.nvim {{{
 call everforest#highlight('TelescopeMatching', s:palette.green, s:palette.none, 'bold')
-highlight! link TelescopeBorder Grey
+call everforest#highlight('TelescopeTitle', s:palette.fg, s:palette.blue, 'bold')
+call everforest#highlight('TelescopeBorder', s:palette.bg_dim, s:palette.bg_dim, 'bold')
 highlight! link TelescopePromptPrefix Orange
 highlight! link TelescopeSelection DiffAdd
 " }}}
