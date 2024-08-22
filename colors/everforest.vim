@@ -1127,7 +1127,6 @@ highlight! link BufTabLineHidden TabLineFill
 highlight! link BufTabLineFill TabLineFill
 " }}}
 " liuchengxu/vim-which-key {{{
-call everforest#highlight('WhichKeyNormal', s:palette.bg_dim, s:palette.bg_dim, 'underline')
 highlight! link WhichKey Red
 highlight! link WhichKeySeperator Green
 highlight! link WhichKeyGroup Yellow
