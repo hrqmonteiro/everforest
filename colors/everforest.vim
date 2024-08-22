@@ -1201,7 +1201,7 @@ call everforest#highlight('TelescopeResultsTitle', s:palette.bg_dim, s:palette.b
 call everforest#highlight('TelescopeBorder', s:palette.bg_dim, s:palette.bg_dim)
 call everforest#highlight('TelescopeNormal', s:palette.fg, s:palette.bg_dim)
 call everforest#highlight('TelescopeSelection', s:palette.fg, s:palette.bg1)
-call everforest#highlight('TelescopePrompCounter', s:palette.fg, s:none)
+call everforest#highlight('TelescopePrompCounter', s:palette.fg, s:palette.none)
 " }}}
 " lewis6991/gitsigns.nvim {{{
 highlight! link GitSignsAdd GreenSign
