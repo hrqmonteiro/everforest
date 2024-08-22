@@ -1200,8 +1200,7 @@ call everforest#highlight('TelescopePromptBorder', s:palette.bg2, s:palette.bg2)
 call everforest#highlight('TelescopeResultsTitle', s:palette.bg_dim, s:palette.bg_dim)
 call everforest#highlight('TelescopeBorder', s:palette.bg_dim, s:palette.bg_dim)
 call everforest#highlight('TelescopeNormal', s:palette.fg, s:palette.bg_dim)
-call everforest#highlight('TelescopeSelection', s:palette.fg, s:palette.bg2)
-highlight! link TelescopeSelection DiffAdd
+call everforest#highlight('TelescopeSelection', s:palette.fg, s:palette.bg1)
 " }}}
 " lewis6991/gitsigns.nvim {{{
 highlight! link GitSignsAdd GreenSign
