@@ -1219,6 +1219,8 @@ call everforest#highlight('NoiceCmdlinePopupTitleSearch', s:palette.bg2, s:palet
 call everforest#highlight('HydraBorder', s:palette.bg_dim, s:palette.bg_dim)
 call everforest#highlight('HydraHint', s:palette.fg, s:palette.bg_dim)
 
+call everforest#highlight('BlinkCmpGhostText', s:palette.grey1, s:palette.none, 'nocombine')
+
 " lewis6991/gitsigns.nvim {{{
 highlight! link GitSignsAdd GreenSign
 highlight! link GitSignsChange BlueSign
